@@ -33,3 +33,10 @@ puts "---"
 is_snowboarder.unshift(true)
 puts is_snowboarder.unshift
 puts
+
+###
+###
+# Index position is the location of each element inside the array.  The first element will
+# always be index [0] and the last element will always be index [array.length - 1]. The examples
+# in this program all have an initial array length of 4, but their last index is 3.
+puts "The initial index of the friends array, #{friends}, is 0 and the last index is 3."
