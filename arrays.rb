@@ -40,3 +40,22 @@ puts
 # always be index [0] and the last element will always be index [array.length - 1]. The examples
 # in this program all have an initial array length of 4, but their last index is 3.
 puts "The initial index of the friends array, #{friends}, is 0 and the last index is 3."
+puts
+
+###
+###
+# The below code checks the 'friends' array to see if a specific friend is in the array
+# and if they are, it finds the index of that friend. The code uses the .include?() and 
+# .index() methods. The method .include?(n) checks each element of an array to see if it
+# includes the 'n' value.  The .index(n) method returns the index of the 'n' value.
+puts "Is Scott in the friends array?"
+if friends.include?("Scott")
+    puts "#{friends}"
+    puts "Yes"
+    puts "Scott is at index[#{friends.index("Scott")}]!"
+else
+    puts "#{friends}"
+    puts "No"
+end
+puts
+
